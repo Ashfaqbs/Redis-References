@@ -1,4 +1,6 @@
-hands-on practice with **Redis Hashes** to store and modify user data.  
+# Redis Hashes — Storing and Modifying User Data
+
+Hands-on practice with Redis Hashes, treating each user as a hash keyed by `user:{id}`.
 
 ---
 
