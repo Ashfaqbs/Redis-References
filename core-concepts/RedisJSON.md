@@ -1,4 +1,6 @@
-Let's perform the same **RedisJSON CRUD operations** on this running Redis docker instance.
+# RedisJSON CRUD Operations
+
+Notes from hands-on practice — performing RedisJSON CRUD operations on the running Redis Docker instance.
 
 ---
 
