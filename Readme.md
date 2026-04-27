@@ -1,3 +1,36 @@
+# Redis References
+
+Personal reference repo for learning Redis — covering fundamentals, data types, Spring Boot integration, and caching strategies.
+
+## Repo Structure
+
+```
+Redis-References/
+  notes/
+    quick-revision.md         # Docker setup, DB structure, programmatic access quick ref
+    cache-strategies.md       # Cache-Aside, Read-Through, Write-Through, Write-Behind, Refresh-Ahead
+  Docker/
+    Setting-Up-Redis.md       # Docker setup with auth and ACL user management
+    compose/docker-compose.yml
+  core-concepts/
+    Datatypes.md              # CRUD for all Redis data types
+    Hash-eg.md                # Hands-on Redis Hashes examples
+    How-to-Store-Users-in-Redis.md
+    RedisJSON.md              # RedisJSON CRUD
+    ttl-expiry-eviction.md    # TTL, key expiry, eviction policies, SCAN vs KEYS
+    pub-sub-streams.md        # Pub/Sub (fire-and-forget) and Streams (durable log + consumer groups)
+    transactions-pipelining-lua.md  # MULTI/EXEC/WATCH, pipelining, Lua scripting
+    distributed-patterns.md   # Distributed locking, rate limiting, session storage, leaderboards, idempotency
+    on-prem-ha-monitoring.md  # redis.conf, persistence (RDB+AOF), Sentinel, Cluster, Lettuce vs Jedis, monitoring
+  code/
+    Java/
+      redis-crud-sb3/         # Spring Boot 3 — CrudRepository and RedisTemplate approaches
+      sb-redis-cache-optimization-crud/  # Spring Boot 3 + JPA + Redis caching (@Cacheable etc.)
+    python/app.py             # Python redis-py client examples
+```
+
+---
+
 # Introduction to Redis
 
 ## What is Redis?
