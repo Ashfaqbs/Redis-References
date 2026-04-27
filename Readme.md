@@ -17,7 +17,9 @@ Redis-References/
     Hash-eg.md                # Hands-on Redis Hashes examples
     How-to-Store-Users-in-Redis.md
     RedisJSON.md              # RedisJSON CRUD
-    ttl-expiry-eviction.md    # TTL, key expiry, eviction policies, SCAN vs KEYS
+    ttl-expiry-eviction.md    # TTL, key expiry, eviction policies summary, SCAN vs KEYS
+    eviction-policies.md      # Deep dive: LRU vs LFU internals, all 8 policies, when to use which, monitoring evictions
+    what-to-cache.md          # What belongs in Redis: frequent reads, costly queries, external APIs, anti-patterns, TTL guide
     pub-sub-streams.md        # Pub/Sub (fire-and-forget) and Streams (durable log + consumer groups)
     transactions-pipelining-lua.md  # MULTI/EXEC/WATCH, pipelining, Lua scripting
     distributed-patterns.md   # Distributed locking, rate limiting, session storage, leaderboards, idempotency
